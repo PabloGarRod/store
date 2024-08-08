@@ -1,5 +1,13 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import {
+  Component,
+  EventEmitter,
+  inject,
+  Input,
+  Output,
+  signal,
+} from '@angular/core';
 import { Product } from '../../../shared/models/product.model';
+import { ProductService } from '../../../shared/services/product.service';
 
 @Component({
   selector: 'app-product',
