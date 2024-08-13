@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import { CounterComponent } from '@shared/components/counter/counter.component';
 import { WaveAudioComponent } from '@info/components/wave-audio/wave-audio.component';
 import { HighlightDirective } from '@shared/directives/highlight.directive';
@@ -10,11 +10,10 @@ import { HeaderComponent } from '@shared/components/header/header.component';
   standalone: true,
   imports: [
     CounterComponent,
-    CommonModule,
     WaveAudioComponent,
     HighlightDirective,
-    HeaderComponent,
-  ],
+    HeaderComponent
+],
   templateUrl: './about.component.html',
   styleUrl: './about.component.css',
 })
