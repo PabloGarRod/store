@@ -9,4 +9,4 @@ import { RouterModule } from '@angular/router';
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.css',
 })
-export class LayoutComponent {}
+export default class LayoutComponent {}
